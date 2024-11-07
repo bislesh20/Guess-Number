@@ -13,7 +13,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = guess;
     displayMessage('Correct Guess!');
     document.querySelector('.heading').textContent = 'Correct!';
-    document.querySelector('body').style.backgroundColor = '#60b347';
+    document.querySelector('body').style.backgroundColor = '#22B600';
     if (score > highScore) {
       highScore = score;
       document.querySelector('.highscore').textContent = highScore;
